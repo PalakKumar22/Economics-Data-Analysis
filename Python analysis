@@ -1,0 +1,89 @@
+# Economic Data Analysis
+
+> Python-based exploratory analysis of key economic indicators — GDP growth, inflation, unemployment, and country-level comparisons — using Pandas and Matplotlib.
+
+## Project Preview
+
+### India vs USA Comparison
+![India vs USA](charts/india_vs_usa.png)
+
+### GDP Growth Over Time
+![GDP Growth](charts/gdp_growth.png)
+
+### Economic Trends — GDP, Inflation & Unemployment
+![Economic Trends](charts/economic_trends.png)
+
+---
+
+## Problem Statement
+
+Economic indicators like GDP growth, inflation, and unemployment are interconnected — but rarely visualized together. This project analyzes and visualizes these indicators to uncover trends, compare economies, and understand how major events (like the 2020 pandemic) impact economic performance.
+
+---
+
+## Project Structure
+
+---
+
+## Notebooks & Scripts
+
+### 1. India vs USA Comparison
+Compares India and the USA across GDP (trillion USD) and population (million) using a grouped bar chart built with Pandas and Matplotlib.
+
+**Key finding:** Despite India's population being 4x larger than the USA's, its GDP is roughly 7x smaller — highlighting the GDP per capita gap between the two economies.
+
+### 2. GDP Growth Over Time
+Visualizes India's annual GDP growth rate from 2018 to 2022 as a line chart. Explores two chart styles (default Matplotlib and ggplot) to demonstrate styling techniques.
+
+**Key finding:** GDP growth dropped sharply to -6.6% in 2020 (COVID-19 impact), then rebounded strongly to 8.7% in 2021 — the fastest recovery in the dataset.
+
+### 3. Inflation Calculator
+A simple Python script that calculates inflation rate given an old and new price value.
+
+### 4. Economic Trends — GDP, Inflation & Unemployment
+Multi-line chart tracking GDP growth, inflation rate, and unemployment rate over time to analyze how these indicators move together across economic cycles.
+
+**Key findings:**
+- Inflation peaked around 2010 and has trended downward since
+- Unemployment showed a sharp spike in 2011–2013 then normalized
+- GDP growth and inflation showed inverse patterns during recovery periods
+
+---
+
+## Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| Python | Core programming language |
+| Pandas | Data creation and manipulation |
+| Matplotlib | Data visualization and charting |
+| Jupyter Notebook | Interactive analysis environment |
+
+---
+
+## Skills Demonstrated
+
+Python · Pandas · Matplotlib · Data Visualization · Exploratory Data Analysis · Economic Analysis
+
+---
+
+## How to Run
+
+1. Clone the repository:
+```bash
+   git clone https://github.com/PalakKumar22/Economic-Data-Analysis.git
+```
+2. Install dependencies:
+```bash
+   pip install pandas matplotlib jupyter
+```
+3. Launch Jupyter:
+```bash
+   jupyter notebook
+```
+4. Open any `.ipynb` file and run all cells.
+
+---
+
+## License
+MIT
